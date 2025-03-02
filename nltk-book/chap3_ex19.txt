@@ -1,0 +1,7 @@
+current 56
+file 32
+heat 85
+moment 12
+by 47
+my 36
+side 93
