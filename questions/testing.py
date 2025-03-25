@@ -1,7 +1,8 @@
 import spacy
 
-with open('questions/txts/HP_1ru.txt', 'r') as file:
+nlp = spacy.load("ru_core_news_sm")
+with open('/Users/maria.onoeva/Desktop/new_folder/GitHub/nlp-repo/questions/txts/HP_1ru.txt', 'r') as file:
     text_ru = file.read()
 
-doc = spacy(text_ru)
-print(doc.ents)
+doc = nlp(text_ru)
+print(text_ru)
